@@ -22,9 +22,12 @@ int main() {
 	for (int i = 0; i < current_size; i++) {
 		cout << randInt[i] << " ";
 	}
+	cout << endl;
+	cout << "Even indices: ";
+	for (int i = 0; i < current_size; i++) {
+		cout << randInt[i] << " ";
+		i++;
+	}
 
-
-	//int randInt = rand();
-	//int integers[] = { randInt, randInt, randInt, randInt, randInt, randInt, randInt, randInt, randInt, randInt };
 }
 
