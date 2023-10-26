@@ -48,7 +48,6 @@ int main() {
 	// frist and last elements
 	cout << endl;
 	cout << "First and Last: " << randInt[0] << " " << randInt[9];
-	
 
 }
 
