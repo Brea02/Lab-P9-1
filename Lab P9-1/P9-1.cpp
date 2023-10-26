@@ -45,7 +45,10 @@ int main() {
 	for (int i = 9; i >= 0; i--) {
 		cout << randInt[i] << " ";
 	}
-
+	// frist and last elements
+	cout << endl;
+	cout << "First and Last: " << randInt[0] << " " << randInt[9];
+	
 
 }
 
