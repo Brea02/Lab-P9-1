@@ -39,7 +39,12 @@ int main() {
 			cout << randInt[i] << " ";
 		}
 	}
-
+	//reverse order
+	cout << endl;
+	cout << "Reversed order: ";
+	for (int i = 9; i >= 0; i--) {
+		cout << randInt[i] << " ";
+	}
 
 
 }
